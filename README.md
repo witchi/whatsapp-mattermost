@@ -42,7 +42,7 @@ php ./src/convert.php
 
 It writes some hints into the error log and stops on an error like "unknown user" or "unknown telephone number". Correct the errors within ./src/convert.php and try it again.
 
-###Emojis
+## Emojis
 
 _Mattermost_ uses others Emoji names as _Whatsapp_. Within the _Whatsapp_ chat you can find Emojis as Unicode character sequence. A lot of Emoji mappings you can already find within the class `WhatsAppEmojiMap`. 
 
