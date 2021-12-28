@@ -37,6 +37,7 @@ You have to look into the _Whatsapp_ chat, how the telephone numbers are used th
 
 ```bash
 cd whatsapp-mattermost
+composer install
 php ./src/convert.php
 ```
 
