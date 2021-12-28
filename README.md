@@ -41,7 +41,7 @@ composer install
 php ./src/convert.php
 ```
 
-It writes some hints into the error log and stops on an error like "unknown user" or "unknown telephone number". Correct the errors within ./src/convert.php and try it again.
+It writes some hints into the error log and stops on an error like "unknown user" or "unknown telephone number". Correct the errors within `./src/convert.php` and try it again.
 
 ## Emojis
 
