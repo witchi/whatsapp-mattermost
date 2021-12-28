@@ -1,0 +1,20 @@
+{
+	"name" : "phosco/mattermost",
+	"description" : "Import WhatsApp Chats into Mattermost Channels",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{ 
+			"name": "André Rothe",
+			"email": "arothe@phosco.info",
+			"homepage": "https://www.phosco.info",
+			"role": "Lead Developer"
+		}],
+	"require" : {
+		"php" : ">=7.4"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"de\\phosco\\mattermost\\whatsapp\\" : "src/de/phosco/mattermost/whatsapp/"
+		}
+	}
+}
